@@ -4,11 +4,11 @@
 
 # 客户端：Clash
 
-# 创建时间：2023-04-13 06:44:36
+# 创建时间：2023-04-13 07:44:53
 
 # 使用模版：V2RaySE 默认模版
 
-# 节点数量：155
+# 节点数量：148
 
 ####################################
 
@@ -43,26 +43,6 @@ dns:
 
 
 proxies:
-
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","type":"ssr","server":"usa1.vfun.icu","port":443,"password":"vyunme","cipher":"aes-256-cfb","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"ab93117422.jd.hk","protocol-param":"17422:TTp0SX"}
-
-  - {"name":"🇷🇺_RU_俄罗斯联邦_1","type":"ssr","server":"45.129.3.75","port":20022,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
-
-  - {"name":"🇨🇳_CN_中国_1","type":"ss","server":"14.29.124.168","port":25271,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-
-  - {"name":"🇧🇿_伯利兹_3","type":"vmess","server":"203.30.190.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
-
-  - {"name":"🇺🇸_US_美国_1_1","type":"vmess","server":"140.99.59.254","port":55512,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
-
-  - {"name":"🇺🇸_US_美国_2_1","type":"vmess","server":"23.224.191.6","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":32,"tls":true,"skip-cert-verify":true,"network":"ws"}
-
-  - {"name":"🇺🇸_US_美国_3_1","type":"vmess","server":"vin1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-
-  - {"name":"🇨🇳_中国_4","type":"vmess","server":"111.23.252.214","port":59902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-
-  - {"name":"🇯🇵_JP_日本\r_3\r","type":"ss","server":"43.206.194.235","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-
-  - {"name":"🇮🇳_IN_印度","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true,"network":"tcp"}
 
   - {"name":"更多免费高速v2ray、clash节点:www.v2rayfree.eu.org","type":"ss","server":"www.v2rayfree.eu.org","port":443,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
 
@@ -252,7 +232,7 @@ proxies:
 
   - {"name":"🇭🇰_HK_香港","type":"vmess","server":"n1680937004.sxhucjg.cn","port":443,"cipher":"auto","uuid":"df2cfa39-3dd3-411a-9872-8e508f5e2483","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
 
-  - {"name":"🇺🇸_US_美国_1_2","type":"vmess","server":"192.74.243.41","port":49206,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"192.74.243.41","port":49206,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 
   - {"name":"🇺🇸_US_美国\r\r","type":"trojan","server":"170-187-134-190.ipv4.rush.ml","port":8443,"udp":true,"password":"cf4295378e209e70d12c5bdd017144dfd1c772d3","skip-cert-verify":true,"network":"tcp"}
 
@@ -260,9 +240,9 @@ proxies:
 
   - {"name":"🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_2","type":"vmess","server":"203.30.190.2","port":80,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fr.v2ray1.xyz"}}}
 
-  - {"name":"🇺🇸_US_美国_2_2","type":"vmess","server":"108.186.208.156","port":50003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"108.186.208.156","port":50003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 
-  - {"name":"🇺🇸_US_美国_3_2","type":"vmess","server":"172.67.86.214","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
+  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"172.67.86.214","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
 
   - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰","type":"vmess","server":"156.225.67.201","port":47811,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 
@@ -276,7 +256,7 @@ proxies:
 
   - {"name":"🇺🇸_US_美国_5","type":"vmess","server":"www.nivod4.tv","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"lg2.v2ray6.xyz"}}}
 
-  - {"name":"🇷🇺_RU_俄罗斯联邦_2","type":"ssr","server":"46.17.44.111","port":20022,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦","type":"ssr","server":"46.17.44.111","port":20022,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
 
   - {"name":"🇨🇾_塞浦路斯_1","type":"vmess","server":"203.24.108.2","port":80,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fr.v2ray1.xyz"}}}
 
@@ -292,7 +272,7 @@ proxies:
 
   - {"name":"🇬🇧_GB_英国->🇳🇱_NL_荷兰","type":"vmess","server":"185.193.30.158","port":443,"cipher":"auto","uuid":"A59E320C-BAC6-45E3-8A27-1518610708D0","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.v2ray.online"}}}
 
-  - {"name":"🇨🇳_CN_中国_2","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇨🇳_CN_中国","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
 
   - {"name":"🇺🇦_乌克兰_1","type":"vmess","server":"212.110.134.10","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
 
@@ -303,6 +283,8 @@ proxies:
   - {"name":"🇺🇸_US_美国_9","type":"vmess","server":"142.4.126.56","port":33302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 
   - {"name":"🇯🇵_JP_日本\r_2\r","type":"ss","server":"54.249.57.179","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+
+  - {"name":"🇯🇵_JP_日本\r_3\r","type":"ss","server":"43.206.194.235","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
 
   - {"name":"🇺🇸_US_美国_10","type":"vmess","server":"143.42.87.69","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
 
@@ -324,6 +306,8 @@ proxies:
 
   - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国","type":"vmess","server":"172.67.13.13","port":80,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fr.v2ray1.xyz"}}}
 
+  - {"name":"🇧🇿_伯利兹_3","type":"vmess","server":"203.30.190.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+
   - {"name":"【更新：2023-04-12 06:58:59】(不可用)","type":"ss","server":"127.0.0.1","port":1002,"password":"123456","cipher":"aes-256-gcm"}
 
   - {"name":"🇭🇰_香港-MB博客会员专用","type":"vmess","server":"vpn.wenpblog.com","port":443,"cipher":"auto","uuid":"74adb64b-dde2-4156-a10a-95bce8df90eb","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/baseOn","headers":{"host":"vpn.wenpblog.com"}}}
@@ -339,6 +323,8 @@ proxies:
   - {"name":"🇨🇳_中国_2","type":"vmess","server":"36.133.171.209","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 
   - {"name":"🇨🇳_中国_3","type":"ss","server":"36.137.106.115","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+
+  - {"name":"🇨🇳_中国_4","type":"vmess","server":"111.23.252.214","port":59902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 
   - {"name":"🇨🇳_中国_7","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 
@@ -366,26 +352,6 @@ proxy-groups:
 
       - DIRECT
 
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-
-      - 🇷🇺_RU_俄罗斯联邦_1
-
-      - 🇨🇳_CN_中国_1
-
-      - 🇧🇿_伯利兹_3
-
-      - 🇺🇸_US_美国_1_1
-
-      - 🇺🇸_US_美国_2_1
-
-      - 🇺🇸_US_美国_3_1
-
-      - 🇨🇳_中国_4
-
-      - "🇯🇵_JP_日本\r_3\r"
-
-      - 🇮🇳_IN_印度
-
       - 更多免费高速v2ray、clash节点:www.v2rayfree.eu.org
 
       - 未知国家_1
@@ -574,7 +540,7 @@ proxy-groups:
 
       - 🇭🇰_HK_香港
 
-      - 🇺🇸_US_美国_1_2
+      - 🇺🇸_US_美国_1
 
       - "🇺🇸_US_美国\r\r"
 
@@ -582,9 +548,9 @@ proxy-groups:
 
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_2
 
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_2
 
-      - 🇺🇸_US_美国_3_2
+      - 🇺🇸_US_美国_3
 
       - 🇺🇸_US_美国->🇳🇱_NL_荷兰
 
@@ -598,7 +564,7 @@ proxy-groups:
 
       - 🇺🇸_US_美国_5
 
-      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦
 
       - 🇨🇾_塞浦路斯_1
 
@@ -614,7 +580,7 @@ proxy-groups:
 
       - 🇬🇧_GB_英国->🇳🇱_NL_荷兰
 
-      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国
 
       - 🇺🇦_乌克兰_1
 
@@ -625,6 +591,8 @@ proxy-groups:
       - 🇺🇸_US_美国_9
 
       - "🇯🇵_JP_日本\r_2\r"
+
+      - "🇯🇵_JP_日本\r_3\r"
 
       - 🇺🇸_US_美国_10
 
@@ -646,6 +614,8 @@ proxy-groups:
 
       - 🇺🇸_US_美国->🇫🇷_FR_法国
 
+      - 🇧🇿_伯利兹_3
+
       - 【更新：2023-04-12 06:58:59】(不可用)
 
       - 🇭🇰_香港-MB博客会员专用
@@ -661,6 +631,8 @@ proxy-groups:
       - 🇨🇳_中国_2
 
       - 🇨🇳_中国_3
+
+      - 🇨🇳_中国_4
 
       - 🇨🇳_中国_7
 
@@ -688,26 +660,6 @@ proxy-groups:
 
     proxies:
 
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-
-      - 🇷🇺_RU_俄罗斯联邦_1
-
-      - 🇨🇳_CN_中国_1
-
-      - 🇧🇿_伯利兹_3
-
-      - 🇺🇸_US_美国_1_1
-
-      - 🇺🇸_US_美国_2_1
-
-      - 🇺🇸_US_美国_3_1
-
-      - 🇨🇳_中国_4
-
-      - "🇯🇵_JP_日本\r_3\r"
-
-      - 🇮🇳_IN_印度
-
       - 更多免费高速v2ray、clash节点:www.v2rayfree.eu.org
 
       - 未知国家_1
@@ -896,7 +848,7 @@ proxy-groups:
 
       - 🇭🇰_HK_香港
 
-      - 🇺🇸_US_美国_1_2
+      - 🇺🇸_US_美国_1
 
       - "🇺🇸_US_美国\r\r"
 
@@ -904,9 +856,9 @@ proxy-groups:
 
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_2
 
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_2
 
-      - 🇺🇸_US_美国_3_2
+      - 🇺🇸_US_美国_3
 
       - 🇺🇸_US_美国->🇳🇱_NL_荷兰
 
@@ -920,7 +872,7 @@ proxy-groups:
 
       - 🇺🇸_US_美国_5
 
-      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦
 
       - 🇨🇾_塞浦路斯_1
 
@@ -936,7 +888,7 @@ proxy-groups:
 
       - 🇬🇧_GB_英国->🇳🇱_NL_荷兰
 
-      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国
 
       - 🇺🇦_乌克兰_1
 
@@ -947,6 +899,8 @@ proxy-groups:
       - 🇺🇸_US_美国_9
 
       - "🇯🇵_JP_日本\r_2\r"
+
+      - "🇯🇵_JP_日本\r_3\r"
 
       - 🇺🇸_US_美国_10
 
@@ -968,6 +922,8 @@ proxy-groups:
 
       - 🇺🇸_US_美国->🇫🇷_FR_法国
 
+      - 🇧🇿_伯利兹_3
+
       - 【更新：2023-04-12 06:58:59】(不可用)
 
       - 🇭🇰_香港-MB博客会员专用
@@ -983,6 +939,8 @@ proxy-groups:
       - 🇨🇳_中国_2
 
       - 🇨🇳_中国_3
+
+      - 🇨🇳_中国_4
 
       - 🇨🇳_中国_7
 
@@ -1010,26 +968,6 @@ proxy-groups:
 
       - 🎯 全球直连
 
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-
-      - 🇷🇺_RU_俄罗斯联邦_1
-
-      - 🇨🇳_CN_中国_1
-
-      - 🇧🇿_伯利兹_3
-
-      - 🇺🇸_US_美国_1_1
-
-      - 🇺🇸_US_美国_2_1
-
-      - 🇺🇸_US_美国_3_1
-
-      - 🇨🇳_中国_4
-
-      - "🇯🇵_JP_日本\r_3\r"
-
-      - 🇮🇳_IN_印度
-
       - 更多免费高速v2ray、clash节点:www.v2rayfree.eu.org
 
       - 未知国家_1
@@ -1218,7 +1156,7 @@ proxy-groups:
 
       - 🇭🇰_HK_香港
 
-      - 🇺🇸_US_美国_1_2
+      - 🇺🇸_US_美国_1
 
       - "🇺🇸_US_美国\r\r"
 
@@ -1226,9 +1164,9 @@ proxy-groups:
 
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_2
 
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_2
 
-      - 🇺🇸_US_美国_3_2
+      - 🇺🇸_US_美国_3
 
       - 🇺🇸_US_美国->🇳🇱_NL_荷兰
 
@@ -1242,7 +1180,7 @@ proxy-groups:
 
       - 🇺🇸_US_美国_5
 
-      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦
 
       - 🇨🇾_塞浦路斯_1
 
@@ -1258,7 +1196,7 @@ proxy-groups:
 
       - 🇬🇧_GB_英国->🇳🇱_NL_荷兰
 
-      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国
 
       - 🇺🇦_乌克兰_1
 
@@ -1269,6 +1207,8 @@ proxy-groups:
       - 🇺🇸_US_美国_9
 
       - "🇯🇵_JP_日本\r_2\r"
+
+      - "🇯🇵_JP_日本\r_3\r"
 
       - 🇺🇸_US_美国_10
 
@@ -1290,6 +1230,8 @@ proxy-groups:
 
       - 🇺🇸_US_美国->🇫🇷_FR_法国
 
+      - 🇧🇿_伯利兹_3
+
       - 【更新：2023-04-12 06:58:59】(不可用)
 
       - 🇭🇰_香港-MB博客会员专用
@@ -1305,6 +1247,8 @@ proxy-groups:
       - 🇨🇳_中国_2
 
       - 🇨🇳_中国_3
+
+      - 🇨🇳_中国_4
 
       - 🇨🇳_中国_7
 
@@ -1330,26 +1274,6 @@ proxy-groups:
 
       - 🎯 全球直连
 
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-
-      - 🇷🇺_RU_俄罗斯联邦_1
-
-      - 🇨🇳_CN_中国_1
-
-      - 🇧🇿_伯利兹_3
-
-      - 🇺🇸_US_美国_1_1
-
-      - 🇺🇸_US_美国_2_1
-
-      - 🇺🇸_US_美国_3_1
-
-      - 🇨🇳_中国_4
-
-      - "🇯🇵_JP_日本\r_3\r"
-
-      - 🇮🇳_IN_印度
-
       - 更多免费高速v2ray、clash节点:www.v2rayfree.eu.org
 
       - 未知国家_1
@@ -1538,7 +1462,7 @@ proxy-groups:
 
       - 🇭🇰_HK_香港
 
-      - 🇺🇸_US_美国_1_2
+      - 🇺🇸_US_美国_1
 
       - "🇺🇸_US_美国\r\r"
 
@@ -1546,9 +1470,9 @@ proxy-groups:
 
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_2
 
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_2
 
-      - 🇺🇸_US_美国_3_2
+      - 🇺🇸_US_美国_3
 
       - 🇺🇸_US_美国->🇳🇱_NL_荷兰
 
@@ -1562,7 +1486,7 @@ proxy-groups:
 
       - 🇺🇸_US_美国_5
 
-      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦
 
       - 🇨🇾_塞浦路斯_1
 
@@ -1578,7 +1502,7 @@ proxy-groups:
 
       - 🇬🇧_GB_英国->🇳🇱_NL_荷兰
 
-      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国
 
       - 🇺🇦_乌克兰_1
 
@@ -1589,6 +1513,8 @@ proxy-groups:
       - 🇺🇸_US_美国_9
 
       - "🇯🇵_JP_日本\r_2\r"
+
+      - "🇯🇵_JP_日本\r_3\r"
 
       - 🇺🇸_US_美国_10
 
@@ -1610,6 +1536,8 @@ proxy-groups:
 
       - 🇺🇸_US_美国->🇫🇷_FR_法国
 
+      - 🇧🇿_伯利兹_3
+
       - 【更新：2023-04-12 06:58:59】(不可用)
 
       - 🇭🇰_香港-MB博客会员专用
@@ -1625,6 +1553,8 @@ proxy-groups:
       - 🇨🇳_中国_2
 
       - 🇨🇳_中国_3
+
+      - 🇨🇳_中国_4
 
       - 🇨🇳_中国_7
 
@@ -1650,26 +1580,6 @@ proxy-groups:
 
       - 🚀 节点选择
 
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-
-      - 🇷🇺_RU_俄罗斯联邦_1
-
-      - 🇨🇳_CN_中国_1
-
-      - 🇧🇿_伯利兹_3
-
-      - 🇺🇸_US_美国_1_1
-
-      - 🇺🇸_US_美国_2_1
-
-      - 🇺🇸_US_美国_3_1
-
-      - 🇨🇳_中国_4
-
-      - "🇯🇵_JP_日本\r_3\r"
-
-      - 🇮🇳_IN_印度
-
       - 更多免费高速v2ray、clash节点:www.v2rayfree.eu.org
 
       - 未知国家_1
@@ -1858,7 +1768,7 @@ proxy-groups:
 
       - 🇭🇰_HK_香港
 
-      - 🇺🇸_US_美国_1_2
+      - 🇺🇸_US_美国_1
 
       - "🇺🇸_US_美国\r\r"
 
@@ -1866,9 +1776,9 @@ proxy-groups:
 
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_2
 
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_2
 
-      - 🇺🇸_US_美国_3_2
+      - 🇺🇸_US_美国_3
 
       - 🇺🇸_US_美国->🇳🇱_NL_荷兰
 
@@ -1882,7 +1792,7 @@ proxy-groups:
 
       - 🇺🇸_US_美国_5
 
-      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦
 
       - 🇨🇾_塞浦路斯_1
 
@@ -1898,7 +1808,7 @@ proxy-groups:
 
       - 🇬🇧_GB_英国->🇳🇱_NL_荷兰
 
-      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国
 
       - 🇺🇦_乌克兰_1
 
@@ -1909,6 +1819,8 @@ proxy-groups:
       - 🇺🇸_US_美国_9
 
       - "🇯🇵_JP_日本\r_2\r"
+
+      - "🇯🇵_JP_日本\r_3\r"
 
       - 🇺🇸_US_美国_10
 
@@ -1930,6 +1842,8 @@ proxy-groups:
 
       - 🇺🇸_US_美国->🇫🇷_FR_法国
 
+      - 🇧🇿_伯利兹_3
+
       - 【更新：2023-04-12 06:58:59】(不可用)
 
       - 🇭🇰_香港-MB博客会员专用
@@ -1945,6 +1859,8 @@ proxy-groups:
       - 🇨🇳_中国_2
 
       - 🇨🇳_中国_3
+
+      - 🇨🇳_中国_4
 
       - 🇨🇳_中国_7
 
@@ -1970,26 +1886,6 @@ proxy-groups:
 
       - 🎯 全球直连
 
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-
-      - 🇷🇺_RU_俄罗斯联邦_1
-
-      - 🇨🇳_CN_中国_1
-
-      - 🇧🇿_伯利兹_3
-
-      - 🇺🇸_US_美国_1_1
-
-      - 🇺🇸_US_美国_2_1
-
-      - 🇺🇸_US_美国_3_1
-
-      - 🇨🇳_中国_4
-
-      - "🇯🇵_JP_日本\r_3\r"
-
-      - 🇮🇳_IN_印度
-
       - 更多免费高速v2ray、clash节点:www.v2rayfree.eu.org
 
       - 未知国家_1
@@ -2178,7 +2074,7 @@ proxy-groups:
 
       - 🇭🇰_HK_香港
 
-      - 🇺🇸_US_美国_1_2
+      - 🇺🇸_US_美国_1
 
       - "🇺🇸_US_美国\r\r"
 
@@ -2186,9 +2082,9 @@ proxy-groups:
 
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_2
 
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_2
 
-      - 🇺🇸_US_美国_3_2
+      - 🇺🇸_US_美国_3
 
       - 🇺🇸_US_美国->🇳🇱_NL_荷兰
 
@@ -2202,7 +2098,7 @@ proxy-groups:
 
       - 🇺🇸_US_美国_5
 
-      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦
 
       - 🇨🇾_塞浦路斯_1
 
@@ -2218,7 +2114,7 @@ proxy-groups:
 
       - 🇬🇧_GB_英国->🇳🇱_NL_荷兰
 
-      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国
 
       - 🇺🇦_乌克兰_1
 
@@ -2229,6 +2125,8 @@ proxy-groups:
       - 🇺🇸_US_美国_9
 
       - "🇯🇵_JP_日本\r_2\r"
+
+      - "🇯🇵_JP_日本\r_3\r"
 
       - 🇺🇸_US_美国_10
 
@@ -2250,6 +2148,8 @@ proxy-groups:
 
       - 🇺🇸_US_美国->🇫🇷_FR_法国
 
+      - 🇧🇿_伯利兹_3
+
       - 【更新：2023-04-12 06:58:59】(不可用)
 
       - 🇭🇰_香港-MB博客会员专用
@@ -2265,6 +2165,8 @@ proxy-groups:
       - 🇨🇳_中国_2
 
       - 🇨🇳_中国_3
+
+      - 🇨🇳_中国_4
 
       - 🇨🇳_中国_7
 
@@ -2324,26 +2226,6 @@ proxy-groups:
 
       - ♻️ 自动选择
 
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-
-      - 🇷🇺_RU_俄罗斯联邦_1
-
-      - 🇨🇳_CN_中国_1
-
-      - 🇧🇿_伯利兹_3
-
-      - 🇺🇸_US_美国_1_1
-
-      - 🇺🇸_US_美国_2_1
-
-      - 🇺🇸_US_美国_3_1
-
-      - 🇨🇳_中国_4
-
-      - "🇯🇵_JP_日本\r_3\r"
-
-      - 🇮🇳_IN_印度
-
       - 更多免费高速v2ray、clash节点:www.v2rayfree.eu.org
 
       - 未知国家_1
@@ -2532,7 +2414,7 @@ proxy-groups:
 
       - 🇭🇰_HK_香港
 
-      - 🇺🇸_US_美国_1_2
+      - 🇺🇸_US_美国_1
 
       - "🇺🇸_US_美国\r\r"
 
@@ -2540,9 +2422,9 @@ proxy-groups:
 
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_2
 
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_2
 
-      - 🇺🇸_US_美国_3_2
+      - 🇺🇸_US_美国_3
 
       - 🇺🇸_US_美国->🇳🇱_NL_荷兰
 
@@ -2556,7 +2438,7 @@ proxy-groups:
 
       - 🇺🇸_US_美国_5
 
-      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇷🇺_RU_俄罗斯联邦
 
       - 🇨🇾_塞浦路斯_1
 
@@ -2572,7 +2454,7 @@ proxy-groups:
 
       - 🇬🇧_GB_英国->🇳🇱_NL_荷兰
 
-      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国
 
       - 🇺🇦_乌克兰_1
 
@@ -2583,6 +2465,8 @@ proxy-groups:
       - 🇺🇸_US_美国_9
 
       - "🇯🇵_JP_日本\r_2\r"
+
+      - "🇯🇵_JP_日本\r_3\r"
 
       - 🇺🇸_US_美国_10
 
@@ -2604,6 +2488,8 @@ proxy-groups:
 
       - 🇺🇸_US_美国->🇫🇷_FR_法国
 
+      - 🇧🇿_伯利兹_3
+
       - 【更新：2023-04-12 06:58:59】(不可用)
 
       - 🇭🇰_香港-MB博客会员专用
@@ -2619,6 +2505,8 @@ proxy-groups:
       - 🇨🇳_中国_2
 
       - 🇨🇳_中国_3
+
+      - 🇨🇳_中国_4
 
       - 🇨🇳_中国_7
 
